@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ch15_P5_ApplyingAttributes
 {
-    class Program
+    [SerializableAttribute]
+    [ObsoleteAttribute("Use another vehicle!")]
+    class HorseAndBuggy
     {
-        static void Main(string[] args)
-        {
-            HorseAndBuggy horseAndBuggy = new HorseAndBuggy();
 
-        }
     }
 }
